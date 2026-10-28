@@ -41,6 +41,16 @@
   overflow: hidden;                 /* recorta la imagen para que respete las esquinas redondeadas */
 }
 
+.tarjeta_banner {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--verde);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+
 .tarjeta__imagen {
   width: 100%;
   aspect-ratio: 4 / 3;              /* todas las fotos con la misma proporción, aunque vengan distintas */

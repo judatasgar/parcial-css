@@ -182,6 +182,17 @@
   }
 }
 
+.boton__promo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--espacio-l);
+}
+
+@media (min-width: 768px) {
+  .boton__promo {
+    font-size: 3rem;
+  }
+}
 /* ===== PIE DE PÁGINA ===== */
 /* En móvil todo apilado; desde tablet, 3 columnas iguales (Vista A: Footer) */
 .pie {
